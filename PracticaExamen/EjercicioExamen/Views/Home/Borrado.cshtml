@@ -1,0 +1,15 @@
+﻿@model EjercicioExamen.Models.VM.BorrarDepartamentoVM
+
+@Html.ActionLink("Index", "Index")
+<p>@Model.NombreDept</p>
+<p>@Model.CantidadPersonasDepartamento</p>
+<form method="post" asp-action="BorradoConfirmado">
+    <input type="hidden" name="id" value="@Model.IdDepartamento" />
+    <button type="submit">Confirmar Borrado</button>
+
+</form>
+
+@if(ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}

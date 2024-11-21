@@ -1,0 +1,12 @@
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\bin\Debug\net8.0\ENT.deps.json
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\bin\Debug\net8.0\ENT.dll
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\bin\Debug\net8.0\ENT.pdb
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.AssemblyInfoInputs.cache
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.AssemblyInfo.cs
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.csproj.CoreCompileInputs.cache
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.sourcelink.json
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.dll
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\refint\ENT.dll
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ENT.pdb
+C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\PracticaExamen\ENT\obj\Debug\net8.0\ref\ENT.dll

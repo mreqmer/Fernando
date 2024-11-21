@@ -1,0 +1,22 @@
+﻿@model EjercicioExamen.Models.VM.PersonasConDepartamentosVM
+
+<div class="text-center">
+    
+    <ul style="list-style:none">
+        
+        @foreach (var departamento in Model.PersonasConDepartamentos)
+        {
+            <li><h1>@departamento.NombreDept</h1></li>
+            @Html.ActionLink("Borrar", "Borrado", new { id = departamento.IdDepartamento})
+            <ol>
+            @foreach (var persona in departamento.PersonasPorDepartamento)
+            {
+                <li>@persona.Nombre</li>
+            }
+            </ol>
+            <hr />
+        }
+
+    </ul>
+
+</div>
