@@ -1,0 +1,112 @@
+ENT
+	ClsCandidato
+		
+		int idCandidato
+		string nombre
+		string apellidos
+		int direccion
+		int pais
+		string telefono
+		DateTime fechaNac
+		int precioMedio
+
+		+ ClsCandidato(){}
+		+ ClsCandidato(id, nombre, direccion, pais, telefono, fechaNac, precioPromedio)
+		
+
+	ClsMisiones
+		
+		int idMision
+		string nombreMision
+		int dificultad
+
+		+ ClsMision(){}
+		+ ClsMision(idMision, nombreMision, dificiltad)
+
+DAL
+	ClsListadosDal
+		//lista de misiones que se cargará con el método cargaMisiones
+		static List<ClsMision> listaMisiones
+		//lista de candidatos que se cargará con el método cargaCandidatos
+		static List<ClsCandidato> listaCandidatos
+
+		//método para cargar la lista de misiones
+		List<ClsMision> cargaMisiones(){}
+		//método para cargar la lista de candidatos
+		List<ClsCandidatos> cargaCandidatos
+		//obtiene el listado de misiones
+		List<ClsMision> obtieneListaMisionesDal
+		//obtiene el listado de candidatos
+		 List<ClsCandidato> obtieneListaCandidatosDal()
+	ClsManejadoraDal
+		
+		//obtiene una mision
+		ClsMision obtieneMisionDal(int id){}
+		//obtiene una persona
+		ClsCandidatos obtieneCandidatoDal(int id){}
+BL
+	ClsListadosBL
+
+	//obtiene la lista de misiones
+	List<ClsMision> obtieneListadoMisionesBL(){}
+	//obtiene la lista de personas filtrada
+	List<ClsMision> obtienePersonasFiltradaBl(ClsMision m){}
+
+	ClsManejadoraBl
+	//Obtiene una mision
+	ClsMision obtieneMisionBl(int idMision)
+	//obtiene un candidato
+	ClsCandidato obtieneCandidatoBl(int idCandidato)
+UI
+	VM
+		ClsMisionPersonasVM
+			
+			
+			List<ClsPersona> ListadoCandidatosMision {get; set;}
+			List<ClsMision> ListadoMisiones{get;}
+
+			ClsMisionPersonasVM(){
+			//en este constructor se carga el listado de misiones
+			}
+
+			ClsMisionPersonasVM(int idMision){
+			
+			//en este constructor se carga la lista de candidatos disponibles para la mision
+
+			}
+		
+		ClsPersonaDetallesVM : ClsPersona
+			
+			int idPersona
+			string nombre
+			string apellidos
+			string direccion
+			string edad 
+			string cantidadDinero
+			string telefono
+
+			//constructor que rellena los parámetros con los datos de la persona
+			ClsPersonaDetallesVM(ClsCandidato c){}
+			
+
+	Controller
+			Index()
+
+				return view(ClsMisionPersonasVM)
+			[HTTPOST]
+			Index(int idMision)
+
+				return view(ClsMisionPersonasVM)
+
+			VistaDetalles (int idPersona)
+
+			//aqui se busca a la persona por el id y se le pone al VM por parametro
+				
+				return view(ClsPersonaDetallesVMVM)
+
+	Vistas
+		//lista de misiones y personas
+		Index
+		//detalles candidatos
+		VistaCandidatos
+			
