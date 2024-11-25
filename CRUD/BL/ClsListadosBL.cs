@@ -14,5 +14,10 @@ namespace BL
         {
             return ClsListados.ObtieneListadoPersonasDal();
         }
+
+        public static List<ClsDepartamento> ObtieneListadoDepartamentosBl()
+        {
+            return ClsListados.ObtieneListadoDepartamentosDal();
+        }
     }
 }

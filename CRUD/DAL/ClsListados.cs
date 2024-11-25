@@ -59,7 +59,48 @@ namespace DAL
             return listadoPersonas;
 
         }
-    
-        
+
+        public static List<ClsDepartamento> ObtieneListadoDepartamentosDal()
+        {
+            SqlConnection miConexion = new SqlConnection();
+            List<ClsDepartamento> listadoDepartamentos = new List<ClsDepartamento>();
+            SqlCommand miComando = new SqlCommand();
+            SqlDataReader miLector;
+            ClsDepartamento oDept;
+            miConexion.ConnectionString = ClsConexion.CadenaConexion();
+
+            try
+            {
+                miConexion.Open();
+                miComando.CommandText = "SELECT * FROM Departamentos";
+                miComando.Connection = miConexion;
+                miLector = miComando.ExecuteReader();
+
+                if (miLector.HasRows)
+                {
+
+                    while (miLector.Read())
+                    {
+                        oDept = new ClsDepartamento((int)miLector["ID"], (string)miLector["Nombre"]);
+                        //oDept.Id = (int)miLector["ID"];
+                        //oDept.Nombre = (string)miLector["Nombre"];
+
+
+                        listadoDepartamentos.Add(oDept);
+                    }
+                    miLector.Close();
+                    miConexion.Close();
+                }
+            }
+            catch (SqlException exSql)
+            {
+                throw exSql;
+
+            }
+            return listadoDepartamentos;
+
+        }
+
+
     }
 }

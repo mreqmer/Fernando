@@ -49,6 +49,11 @@ namespace BL
             return ClsManejadora.borrarPersonaDal(id);
         }
 
+        public static ClsDepartamento findDepartamentoBl(int idDepartamento)
+        {
+            return ClsManejadora.findDepartamentoDal(idDepartamento);
+        }
+
 
     }
 }
