@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|solutionrelative:bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|solutionrelative:dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|Elementos de la soluci\u00F3n{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\Examentxt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|Elementos de la soluci\u00F3n{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|solutionrelative:Examentxt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|solutionrelative:dal\\clsmanejadoradal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|solutionrelative:dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|solutionrelative:bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|solutionrelative:bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\views\\home\\vistadetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 364,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Examentxt.txt",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\Examentxt.txt",
+              "RelativeDocumentMoniker": "Examentxt.txt",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\Examentxt.txt",
+              "RelativeToolTip": "Examentxt.txt",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-25T12:02:31.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "VistaDetalles.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Controllers\\HomeController.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ClsMisionesPersonasVM.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ClsManejadoraBl.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsManejadoraBl.cs",
               "RelativeDocumentMoniker": "BL\\ClsManejadoraBl.cs",
@@ -127,19 +144,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ClsListadosBl.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsListadosBl.cs",
               "RelativeDocumentMoniker": "BL\\ClsListadosBl.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsListadosBl.cs",
               "RelativeToolTip": "BL\\ClsListadosBl.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBgAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:13:15.585Z"
+              "WhenOpened": "2024-11-22T12:13:15.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ClsPersonaDetallesVM.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
@@ -151,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ClsManejadoraDal.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsManejadoraDal.cs",
               "RelativeDocumentMoniker": "DAL\\ClsManejadoraDal.cs",
@@ -163,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\Privacy.cshtml",
@@ -175,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\ErrorViewModel.cs",
@@ -187,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\Index.cshtml",
@@ -199,19 +217,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ClsListadosDal.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsListadosDal.cs",
               "RelativeDocumentMoniker": "DAL\\ClsListadosDal.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsListadosDal.cs",
               "RelativeToolTip": "DAL\\ClsListadosDal.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEIAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:39:31.01Z"
+              "WhenOpened": "2024-11-22T11:39:31.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -223,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ClsCandidato.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsCandidato.cs",
               "RelativeDocumentMoniker": "ENT\\ClsCandidato.cs",
@@ -235,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ClsMision.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsMision.cs",
               "RelativeDocumentMoniker": "ENT\\ClsMision.cs",

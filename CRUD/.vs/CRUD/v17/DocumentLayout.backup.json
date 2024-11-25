@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|solutionrelative:ejercicioasp\\views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\views\\personasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\views\\personasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567F0F6A-CC5E-46A6-A2CE-A1EA32D136BD}|ENT\\ENT.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ent\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567F0F6A-CC5E-46A6-A2CE-A1EA32D136BD}|ENT\\ENT.csproj|solutionrelative:ent\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\views\\departamentosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\views\\departamentosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\models\\vm\\personasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\models\\vm\\personasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\models\\utils\\clsvmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\models\\utils\\clsvmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|solutionrelative:ejercicioasp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +35,8 @@
       "RelativeMoniker": "D:0:0:{15EC936E-AA2F-4521-92A8-8C77FD1F4194}|BL\\BL.csproj|solutionrelative:bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|solutionrelative:ejercicioasp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|solutionrelative:ejercicioasp\\views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15EC936E-AA2F-4521-92A8-8C77FD1F4194}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\views\\personas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|solutionrelative:ejercicioasp\\views\\personas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{567F0F6A-CC5E-46A6-A2CE-A1EA32D136BD}|ENT\\ENT.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ent\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{567F0F6A-CC5E-46A6-A2CE-A1EA32D136BD}|ENT\\ENT.csproj|solutionrelative:ent\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{635348FA-A504-4B07-A7EF-A639249027D4}|EjercicioASP\\EjercicioASP.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejercicioasp\\ejercicioasp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -71,20 +87,8 @@
       "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\views\\departamentosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\views\\departamentosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\views\\personasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\views\\personasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\models\\utils\\clsvmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|solutionrelative:ejerciciomaui\\models\\utils\\clsvmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17D095EB-2208-4753-A9CC-EB248C4D1722}|EjercicioMAUI\\EjercicioMAUI.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\crud\\ejerciciomaui\\ejerciciomaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -106,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Views\\Personas\\Create.cshtml",
               "RelativeDocumentMoniker": "EjercicioASP\\Views\\Personas\\Create.cshtml",
@@ -126,12 +130,11 @@
               "RelativeToolTip": "EjercicioASP\\Views\\Personas\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T13:08:10.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:08:10.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EjercicioASP\\Controllers\\HomeController.cs",
@@ -144,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Views\\Personas\\Details.cshtml",
               "RelativeDocumentMoniker": "EjercicioASP\\Views\\Personas\\Details.cshtml",
@@ -152,12 +155,11 @@
               "RelativeToolTip": "EjercicioASP\\Views\\Personas\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T12:57:49.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:57:49.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Views\\Personas\\Index.cshtml",
               "RelativeDocumentMoniker": "EjercicioASP\\Views\\Personas\\Index.cshtml",
@@ -165,25 +167,23 @@
               "RelativeToolTip": "EjercicioASP\\Views\\Personas\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T12:55:46.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:55:46.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EjercicioASP",
+              "DocumentIndex": 13,
+              "Title": "EjercicioASP.csproj",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\EjercicioASP.csproj",
               "RelativeDocumentMoniker": "EjercicioASP\\EjercicioASP.csproj",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\EjercicioASP.csproj",
               "RelativeToolTip": "EjercicioASP\\EjercicioASP.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-21T12:54:32.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:54:32.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EjercicioASP\\Views\\Home\\Index.cshtml",
@@ -191,25 +191,50 @@
               "RelativeToolTip": "EjercicioASP\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T12:53:33.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:53:33.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PersonasController.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Controllers\\PersonasController.cs",
               "RelativeDocumentMoniker": "EjercicioASP\\Controllers\\PersonasController.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\Controllers\\PersonasController.cs",
               "RelativeToolTip": "EjercicioASP\\Controllers\\PersonasController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwF4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T12:53:20.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "PersonasView.xaml",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Views\\PersonasView.xaml",
+              "RelativeDocumentMoniker": "EjercicioMAUI\\Views\\PersonasView.xaml",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Views\\PersonasView.xaml",
+              "RelativeToolTip": "EjercicioMAUI\\Views\\PersonasView.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T13:35:52.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonasVM.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Models\\VM\\PersonasVM.cs",
+              "RelativeDocumentMoniker": "EjercicioMAUI\\Models\\VM\\PersonasVM.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Models\\VM\\PersonasVM.cs",
+              "RelativeToolTip": "EjercicioMAUI\\Models\\VM\\PersonasVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:53:50.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ClsDepartamento.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\ENT\\ClsDepartamento.cs",
               "RelativeDocumentMoniker": "ENT\\ClsDepartamento.cs",
@@ -217,25 +242,24 @@
               "RelativeToolTip": "ENT\\ClsDepartamento.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAADwvxUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:50:20.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:50:20.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ClsManejadoraBL.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\BL\\ClsManejadoraBL.cs",
               "RelativeDocumentMoniker": "BL\\ClsManejadoraBL.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\BL\\ClsManejadoraBL.cs",
               "RelativeToolTip": "BL\\ClsManejadoraBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T12:40:22.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\App.xaml.cs",
               "RelativeDocumentMoniker": "EjercicioMAUI\\App.xaml.cs",
@@ -247,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\App.xaml",
               "RelativeDocumentMoniker": "EjercicioMAUI\\App.xaml",
@@ -259,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "EjercicioMAUI\\AppShell.xaml.cs",
@@ -271,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "DepartamentosView.xaml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Views\\DepartamentosView.xaml",
               "RelativeDocumentMoniker": "EjercicioMAUI\\Views\\DepartamentosView.xaml",
@@ -279,23 +303,12 @@
               "RelativeToolTip": "EjercicioMAUI\\Views\\DepartamentosView.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T13:36:05.799Z"
+              "WhenOpened": "2024-11-20T13:36:05.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PersonasView.xaml",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Views\\PersonasView.xaml",
-              "RelativeDocumentMoniker": "EjercicioMAUI\\Views\\PersonasView.xaml",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Views\\PersonasView.xaml",
-              "RelativeToolTip": "EjercicioMAUI\\Views\\PersonasView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T13:35:52.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\MainPage.xaml",
               "RelativeDocumentMoniker": "EjercicioMAUI\\MainPage.xaml",
@@ -307,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 4,
               "Title": "ClsVMBase.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\Models\\Utils\\ClsVMBase.cs",
               "RelativeDocumentMoniker": "EjercicioMAUI\\Models\\Utils\\ClsVMBase.cs",
@@ -315,11 +328,12 @@
               "RelativeToolTip": "EjercicioMAUI\\Models\\Utils\\ClsVMBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T13:29:57.073Z"
+              "WhenOpened": "2024-11-20T13:29:57.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "EjercicioMAUI\\MainPage.xaml.cs",
@@ -331,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\AppShell.xaml",
               "RelativeDocumentMoniker": "EjercicioMAUI\\AppShell.xaml",
@@ -339,12 +353,11 @@
               "RelativeToolTip": "EjercicioMAUI\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T13:18:55.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T13:18:55.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ClsListadosBL.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\BL\\ClsListadosBL.cs",
               "RelativeDocumentMoniker": "BL\\ClsListadosBL.cs",
@@ -352,12 +365,11 @@
               "RelativeToolTip": "BL\\ClsListadosBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T13:16:13.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T13:16:13.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ClsManejadora.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\DAL\\ClsManejadora.cs",
               "RelativeDocumentMoniker": "DAL\\ClsManejadora.cs",
@@ -365,12 +377,11 @@
               "RelativeToolTip": "DAL\\ClsManejadora.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAUwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:32:22.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T12:32:22.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "EjercicioMAUI.csproj",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioMAUI\\EjercicioMAUI.csproj",
               "RelativeDocumentMoniker": "EjercicioMAUI\\EjercicioMAUI.csproj",
@@ -382,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ClsListados.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\DAL\\ClsListados.cs",
               "RelativeDocumentMoniker": "DAL\\ClsListados.cs",
@@ -390,12 +401,11 @@
               "RelativeToolTip": "DAL\\ClsListados.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:29:47.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T12:29:47.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ClsConexion.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\DAL\\ClsConexion.cs",
               "RelativeDocumentMoniker": "DAL\\ClsConexion.cs",
@@ -407,13 +417,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "ClsPersona.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\ENT\\ClsPersona.cs",
               "RelativeDocumentMoniker": "ENT\\ClsPersona.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\ENT\\ClsPersona.cs",
               "RelativeToolTip": "ENT\\ClsPersona.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T12:24:18.052Z",
               "EditorCaption": ""

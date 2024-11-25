@@ -68,10 +68,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Models\VM\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Views\DepartamentosView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

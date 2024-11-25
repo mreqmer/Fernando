@@ -256,3 +256,4 @@ C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\EjercicioASP\obj\Debug\net8.0\refi
 C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\EjercicioASP\obj\Debug\net8.0\EjercicioASP.pdb
 C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\EjercicioASP\obj\Debug\net8.0\EjercicioASP.genruntimeconfig.cache
 C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\EjercicioASP\obj\Debug\net8.0\ref\EjercicioASP.dll
+C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\EjercicioASP\obj\Debug\net8.0\EjercicioASP.sourcelink.json

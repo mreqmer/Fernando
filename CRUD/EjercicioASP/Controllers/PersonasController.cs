@@ -92,8 +92,9 @@ namespace EjercicioASP.Controllers
 
         // POST: PersonasController/Delete/5
         [HttpPost]
+        [ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeletePost(int id)
         {
             try
             {
@@ -101,7 +102,7 @@ namespace EjercicioASP.Controllers
             }
             catch
             {
-                return View();
+                return View("Delete");
             }
         }
     }
