@@ -3,6 +3,7 @@ using BL;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DAL;
+using EjercicioASP.Models.VM;
 
 namespace EjercicioASP.Controllers
 {
@@ -11,18 +12,9 @@ namespace EjercicioASP.Controllers
         // GET: PersonasController
         public ActionResult Index()
         {
-            List<ClsPersona> personas = new List<ClsPersona>();
-
-            try
-            {
-                personas = ClsListadosBL.ObtieneListadoPersonasBl();
-            }
-            catch (Exception ex)
-            {
-                //TODO error
-            }
+            PersonaConDeptVM vm = new PersonaConDeptVM();
             
-            return View(personas);
+            return View(vm.PersonasConDept);
         }
 
         // GET: PersonasController/Details/5

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\views\\home\\borrado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\views\\home\\borrado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\models\\vm\\borrardepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\models\\vm\\borrardepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\views\\home\\borrado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\views\\home\\borrado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02A14754-10EE-4B55-953A-468F72CF64A7}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\dal\\clslistados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\models\\personasdepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\models\\personasdepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\models\\vm\\borrardepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\models\\vm\\borrardepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0802FC46-84CF-4BBD-9779-ECECE0B3B71D}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\practicaexamen\\ejercicioexamen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BorrarDepartamentoVM.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Models\\VM\\BorrarDepartamentoVM.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\VM\\BorrarDepartamentoVM.cs",
@@ -78,28 +78,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Borrado.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Views\\Home\\Borrado.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\Borrado.cshtml",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Views\\Home\\Borrado.cshtml",
               "RelativeToolTip": "EjercicioExamen\\Views\\Home\\Borrado.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-21T19:13:54.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EjercicioExamen\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T18:24:46.363Z"
+              "WhenOpened": "2024-11-21T18:24:46.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -115,31 +116,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PersonasConDepartamentosVM.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Models\\VM\\PersonasConDepartamentosVM.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\VM\\PersonasConDepartamentosVM.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Models\\VM\\PersonasConDepartamentosVM.cs",
               "RelativeToolTip": "EjercicioExamen\\Models\\VM\\PersonasConDepartamentosVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:51:37.623Z"
+              "WhenOpened": "2024-11-21T17:51:37.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ClsListadosBl.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\BL\\ClsListadosBl.cs",
               "RelativeDocumentMoniker": "BL\\ClsListadosBl.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\BL\\ClsListadosBl.cs",
               "RelativeToolTip": "BL\\ClsListadosBl.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:45:48.848Z"
+              "WhenOpened": "2024-11-21T17:45:48.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Controllers\\HomeController.cs",
@@ -151,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "PersonasDepartamentos.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\EjercicioExamen\\Models\\PersonasDepartamentos.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\PersonasDepartamentos.cs",
@@ -159,19 +162,21 @@
               "RelativeToolTip": "EjercicioExamen\\Models\\PersonasDepartamentos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:29:02.712Z"
+              "WhenOpened": "2024-11-21T17:29:02.712Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ClsListados.cs",
               "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\DAL\\ClsListados.cs",
               "RelativeDocumentMoniker": "DAL\\ClsListados.cs",
               "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\PracticaExamen\\DAL\\ClsListados.cs",
               "RelativeToolTip": "DAL\\ClsListados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T16:57:47.182Z"
+              "WhenOpened": "2024-11-21T16:57:47.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

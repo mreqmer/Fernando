@@ -186,5 +186,47 @@ namespace DAL
 
             return filasAfectadas;
         }
+
+        public static ClsDepartamento findDepartamentoDal(int idDepartamento)
+        {
+            SqlConnection miConexion = new SqlConnection();
+            List<ClsDepartamento> listadoDepartamentos = new List<ClsDepartamento>();
+            SqlCommand miComando = new SqlCommand();
+            SqlDataReader miLector;
+            ClsDepartamento oDept = new ClsDepartamento();
+            miConexion.ConnectionString = ClsConexion.CadenaConexion();
+
+            try
+
+            {
+                miConexion.Open();
+                miComando.Parameters.AddWithValue("@id", idDepartamento);
+                miComando.CommandText = "SELECT * FROM departamentos WHERE ID = @id";
+                miComando.Connection = miConexion;
+
+                miLector = miComando.ExecuteReader();
+                if (miLector.HasRows)
+                {
+                    miLector.Read();
+
+                    oDept = new ClsDepartamento((int)miLector["ID"], (string)miLector["Nombre"]);
+                    //oDept.IdDepartamento = (int)miLector["ID"];
+                    //oDept.NombreDepartamento = (string)miLector["Nombre"];
+
+
+                }
+
+                miLector.Close();
+                miConexion.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return oDept;
+
+        }
     }
 }

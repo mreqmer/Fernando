@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENT
 {
-    class ClsDepartamento
+    public class ClsDepartamento
     {
 
         #region Atributos
@@ -15,8 +15,8 @@ namespace ENT
         #endregion
 
         #region Propiedades
-        public int IdDepartamento { get { return idDepartamento; } }
-        public string NombreDepartamento {get { return nombreDepartamento;} }
+        public int IdDepartamento { get { return idDepartamento; } set { idDepartamento = value; } }
+        public string NombreDepartamento {get { return nombreDepartamento; } set { nombreDepartamento = value; } }
         #endregion
 
         #region Constructores

@@ -20,14 +20,53 @@ namespace ENT
         #endregion
 
         #region Propiedades
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Apellidos { get; set; }
-        public string Telefono { get; set; }
-        public string Direccion { get; set; }
-        public string Foto { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public int IdDepartamento { get; set; }
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        public string Apellidos
+        {
+            get { return apellidos; }
+            set { apellidos = value; }
+        }
+
+        public string Telefono
+        {
+            get { return telefono; }
+            set { telefono = value; }
+        }
+
+        public string Direccion
+        {
+            get { return direccion; }
+            set { direccion = value; }
+        }
+
+        public string Foto
+        {
+            get { return foto; }
+            set { foto = value; }
+        }
+
+        public DateTime FechaNacimiento
+        {
+            get { return fechaNacimiento; }
+            set { fechaNacimiento = value; }
+        }
+
+        public int IdDepartamento
+        {
+            get { return idDepartamento; }
+            set { idDepartamento = value; }
+        }
         #endregion
         #region Constructores
         public ClsPersona()
