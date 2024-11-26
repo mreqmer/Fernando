@@ -33,3 +33,4 @@ C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\BL\obj\Debug\net8.0\BL.dll
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\BL\obj\Debug\net8.0\refint\BL.dll
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\BL\obj\Debug\net8.0\BL.pdb
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\BL\obj\Debug\net8.0\ref\BL.dll
+C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\BL\obj\Debug\net8.0\BL.sourcelink.json

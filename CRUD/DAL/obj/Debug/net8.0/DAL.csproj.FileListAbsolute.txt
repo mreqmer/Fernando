@@ -29,3 +29,4 @@ C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\DAL\obj\Debug\net8.0\DAL.d
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\DAL\obj\Debug\net8.0\DAL.sourcelink.json

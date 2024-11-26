@@ -5,9 +5,12 @@
              xmlns:vmodel="clr-namespace:EjercicioMAUI.Models.VM"
              Title="PersonasView">
     <ContentPage.BindingContext>
-        <vmodel:PersonasVM/>
+        <vmodel:VMListaPersonasDepartamento/>
     </ContentPage.BindingContext>
-    <ListView ItemsSource="{Binding ListadoPersonas}">
+    <ListView
+        ItemsSource="{Binding PersonasConDept}"
+        HasUnevenRows="False"
+        RowHeight="400">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -30,7 +33,7 @@
                                     <Label Grid.Row="0" Text="{Binding Id}"/>
                                     <Label Grid.Row="1" Text="{Binding Nombre}"/>
                                     <Label Grid.Row="2" Text="{Binding FechaNacimiento}"/>
-                                    <Label Grid.Row="3" Text="{Binding IdDepartamento}"/>
+                                    <Label Grid.Row="3" Text="{Binding Departamento}"/>
                                 </Grid>
                             </Grid>
 

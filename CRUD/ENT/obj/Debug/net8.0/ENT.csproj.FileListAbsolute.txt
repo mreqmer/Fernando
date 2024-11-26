@@ -21,3 +21,4 @@ C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\ENT\obj\Debug\net8.0\ENT.d
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\ENT\obj\Debug\net8.0\refint\ENT.dll
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\ENT\obj\Debug\net8.0\ENT.pdb
 C:\Users\porqu\OneDrive\Escritorio\repo\Fernando\CRUD\ENT\obj\Debug\net8.0\ref\ENT.dll
+C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\ENT\obj\Debug\net8.0\ENT.sourcelink.json

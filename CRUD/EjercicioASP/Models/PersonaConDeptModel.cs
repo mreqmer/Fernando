@@ -6,10 +6,15 @@ namespace EjercicioASP.Models
     public class PersonaConDeptModel : ClsPersona
     {
 
+        #region Atributos
         private string departamento;
+        #endregion
 
+        #region Propiedades
         public string Departamento { get { return departamento; } }
+        #endregion
 
+        #region Constructor
         public PersonaConDeptModel(ClsPersona p, List<ClsDepartamento> listaDept) {
             base.Id = p.Id;
             base.Nombre = p.Nombre;
@@ -23,6 +28,7 @@ namespace EjercicioASP.Models
             string dep = listaDept.First(dept => dept.IdDepartamento == p.IdDepartamento).NombreDepartamento;
             departamento = dep;
         }
+        #endregion
 
         //public PersonaConDeptModel(int idPersona)
         //{

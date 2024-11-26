@@ -73,17 +73,13 @@ namespace DAL
         {
             int filasAfectadas = 0;
             SqlConnection miConexion = new SqlConnection();
-            List<ClsPersona> listadoPersonas = new List<ClsPersona>();
             SqlCommand miComando = new SqlCommand();
-            SqlDataReader miLector;
-            ClsPersona oPersona = new ClsPersona();
             miConexion.ConnectionString = ClsConexion.CadenaConexion();
 
             try
             {
 
                 miConexion.Open();
-                miComando.Parameters.AddWithValue("@id", p.Id);
                 miComando.Parameters.AddWithValue("@nombre", p.Nombre);
                 miComando.Parameters.AddWithValue("@apellidos", p.Apellidos);
                 miComando.Parameters.AddWithValue("@telefono", p.Telefono);
@@ -91,9 +87,8 @@ namespace DAL
                 miComando.Parameters.AddWithValue("@foto", p.Foto);
                 miComando.Parameters.AddWithValue("@fechaNacimiento", p.FechaNacimiento);
                 miComando.Parameters.AddWithValue("@idDepartamento", p.IdDepartamento);
-                miComando.CommandText = "INSERT INTO Personas (id, nombre, apellidos, telefono, direccion, foto," +
-                    " fechaNacimiento, idDepartamento) VALUES @nombre, @apellidos, @telefono, @direccion, @foto," +
-                    " @fechaNacimiento, @idDepartamento WHERE id = @id";
+                miComando.CommandText = "INSERT INTO Personas (nombre, apellidos, telefono, direccion, foto, fechaNacimiento, idDepartamento) " +
+                        "VALUES (@nombre, @apellidos, @telefono, @direccion, @foto, @fechaNacimiento, @idDepartamento)";
 
                 miComando.Connection = miConexion;
                 filasAfectadas = miComando.ExecuteNonQuery();
@@ -139,7 +134,9 @@ namespace DAL
                 miComando.Parameters.AddWithValue("@foto", p.Foto);
                 miComando.Parameters.AddWithValue("@fechaNacimiento", p.FechaNacimiento);
                 miComando.Parameters.AddWithValue("@idDepartamento", p.IdDepartamento);
-                miComando.CommandText = "UPDATE Personas SET @nombre, @apellidos, @telefono, @direccion, @foto, @fechaNacimiento, @idDepartamento WHERE id = @id";
+                miComando.CommandText = "UPDATE Personas SET nombre = @nombre, apellidos = @apellidos, telefono = @telefono, " +
+                        "direccion = @direccion, foto = @foto, fechaNacimiento = @fechaNacimiento, idDepartamento = @idDepartamento " +
+                        "WHERE id = @id";
                 miComando.Connection = miConexion;
                 filasAfectadas = miComando.ExecuteNonQuery();
 
@@ -175,7 +172,7 @@ namespace DAL
             try
             {
                 miConexion.Open();
-                miComando.CommandText = "DELETE FROM Personas WHERE IDPersona=@id";
+                miComando.CommandText = "DELETE FROM Personas WHERE id=@id";
                 miComando.Connection = miConexion;
                 filasAfectadas = miComando.ExecuteNonQuery();
             }
