@@ -12,6 +12,12 @@
     <MauiXaml Update="Views\DepartamentosView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\EditPersonaView2.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Error.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\PersonasView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

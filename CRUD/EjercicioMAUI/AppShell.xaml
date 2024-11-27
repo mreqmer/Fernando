@@ -40,10 +40,17 @@
         ContentTemplate="{DataTemplate local:PersonasView}"
         Route="MainPage" />
     <ShellContent
-    Title="Editar"
+    Title="Add"
     ContentTemplate="{DataTemplate local:AddPersonaView}"
     Route="addPersonasViewPage" />
-    
-    
+    <ShellContent
+        Title="Editar"
+        ContentTemplate="{DataTemplate local:EditPersonaView2}"
+        Route="editPersonaView" />
+
+    <ShellContent
+    Title="Error"
+    ContentTemplate="{DataTemplate local:Error}"
+    Route="Error" />
 
 </Shell>

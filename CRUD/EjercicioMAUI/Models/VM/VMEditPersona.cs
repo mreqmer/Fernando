@@ -11,59 +11,75 @@ using System.Threading.Tasks;
 
 namespace EjercicioMAUI.Models.VM
 {
-    public class VMPersonaConListaDepartamentos : ModelPersonaDepartamento
+    [QueryProperty(nameof(Persona), "Persona")]
+    public class VMEditPersona : clsVMBase
     {
         #region Atributos
 
-        private DelegateCommand btnAddPersona;
-        private ObservableCollection<ClsDepartamento> departamentos = new ObservableCollection<ClsDepartamento>();
-
-
+        private ClsDepartamento departamentoSeleccionado;
+        private ClsPersona persona = new ClsPersona();
+        private List<ClsDepartamento> listadoDepartamentos = new List<ClsDepartamento>();
         #endregion
 
+
         #region Propiedades
-        public DelegateCommand BtnAddPersona {  get { return btnAddPersona; } }
-        public ObservableCollection<ClsDepartamento> Departamentos { get {  return departamentos; } }
+        
+
+        public ClsPersona Persona { get { return persona; } set { persona = value;} }
+
+
         #endregion
 
         #region Constructores
-
-        public VMPersonaConListaDepartamentos() {
-            
-
-        }
-
-        public VMPersonaConListaDepartamentos(ClsPersona p)
+        public VMEditPersona()
         {
-            base.Id = p.Id;
-            base.Nombre = p.Nombre;
-            base.Apellidos = p.Apellidos;
-            base.Telefono = p.Telefono;
-            base.Direccion = p.Direccion;
-            base.Foto = p.Foto;
-            base.FechaNacimiento = p.FechaNacimiento;
-            base.IdDepartamento = p.IdDepartamento;
-
-            List<ClsDepartamento> listaDepartamentos = ClsListadosBL.ObtieneListadoDepartamentosBl();
-            this.departamentos = new ObservableCollection<ClsDepartamento>(listaDepartamentos);
+            OnPropertyChanged("Persona");
 
         }
-
         #endregion
+        #region Commands
 
-        #region Command
+        //public bool btnEditCommand_CanExecute()
+        //{
+        //    bool execute = false;
 
-        public bool btnAddPersona_CanExecute()
-        {
-            return true;
-        }
+        //    if (nombre!= "" && apellidos != "" && telefono != "" && direccion != "" && foto != "" && departamentoSeleccionado!= null)
+        //    {
+        //        execute = true;
+        //    }
 
-        public void btnAddPersona_Execute()
-        {
-            ClsPersona p = new ClsPersona();
-           
-        }
+        //    return execute;
+        //}    
+
+        //public async void btnEditCommand_Execute()
+        //{
+        //    try
+        //    {
+        //        persona.Nombre = this.nombre;
+        //        persona.Apellidos = this.apellidos;
+        //        persona.Telefono = this.telefono;
+        //        persona.Direccion = this.direccion;
+        //        persona.Foto = this.foto;
+        //        persona.FechaNacimiento = this.fechaNacimiento;
+        //        persona.IdDepartamento = this.departamentoSeleccionado.IdDepartamento;
+
+        //        try
+        //        {
+        //            ClsManejadoraBL.updatePersonaBl(persona);
+        //        }
+        //        catch
+        //        {
+        //            await Shell.Current.GoToAsync("///Error");
+        //        }
+                
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //    }
+
+        //}
 
         #endregion
     }
 }
+

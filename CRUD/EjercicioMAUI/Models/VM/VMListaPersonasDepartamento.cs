@@ -40,6 +40,7 @@ namespace EjercicioMAUI.Models.VM
 
             } 
         }
+        public ClsPersona PersonaSeleccionada { get { return personaSeleccionada; } set { PersonaSeleccionada = value; } }
 
         #endregion
 
@@ -119,10 +120,26 @@ namespace EjercicioMAUI.Models.VM
             return execute;
         }
 
-        public void btnEditCommand_Execute()
+        public async void btnEditCommand_Execute()
         {
+            try
+            {
+               
+                var queryParams = new Dictionary<string, object>
+                {
+                    { "Persona", PersonaSeleccionada}
+                };
 
+                await Shell.Current.GoToAsync("///editPersonaView", queryParams);
+            }
+            catch (Exception ex) {
+
+                await Shell.Current.GoToAsync("///Error");
+
+            }
             
+            
+
         }
         public bool btnDeleteCommand_CanExecute()
         {
@@ -138,7 +155,11 @@ namespace EjercicioMAUI.Models.VM
 
         public void btnDeleteCommand_Execute()
         {
-           
+            ClsManejadoraBL.borrarPersonaBl(personaSeleccionada.Id);
+            ModelPersonaDepartamento personaEncontrada = personasConDept.FirstOrDefault(p => p.Id == personaSeleccionada.Id);
+            personasConDept.Remove(personaEncontrada);
+
+
         }
 
 

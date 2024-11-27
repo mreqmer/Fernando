@@ -10,18 +10,60 @@
     </ContentPage.BindingContext>
     <VerticalStackLayout>
 
-        <Entry Placeholder="Nombre" Text="{Binding Nombre}"></Entry>
-        <Entry Placeholder="Apellidos" Text="{Binding Apellidos}"></Entry>
-        <Entry Placeholder="Telefono" Text="{Binding Telefono}"></Entry>
-        <Entry Placeholder="Direccion" Text="{Binding Direccion}"></Entry>
-        <Entry Placeholder="Foto" Text="{Binding Foto}"></Entry>
-        <DatePicker Date="{Binding FechaNacimiento}" />
+        <Entry 
+            Placeholder="Nombre" 
+            Text="{Binding Nombre}"
+            MaximumWidthRequest="300"
+            Margin="0,20,0,20"
+            >
+            
+        </Entry>
+        <Entry 
+            Placeholder="Apellidos" 
+            Text="{Binding Apellidos}"
+            MaximumWidthRequest="300"
+            Margin="0,0,0,20">
+            
+        </Entry>
+        <Entry 
+            Placeholder="Telefono" 
+            Text="{Binding Telefono}"
+            MaximumWidthRequest="300"
+            Margin="0,0,0,20">
+            
+        </Entry>
+        <Entry 
+            Placeholder="Direccion" 
+            Text="{Binding Direccion}"
+            MaximumWidthRequest="300"
+            Margin="0,0,0,20">
+            
+        </Entry>
+        <Entry Placeholder="Foto"
+               Text="{Binding Foto}"
+               MaximumWidthRequest="300"
+                Margin="0,0,0,20">
+            
+        </Entry>
+        <DatePicker
+            Date="{Binding FechaNacimiento}"
+            MaximumWidthRequest="300"
+            Margin="0,0,0,20"
+            />
         <Picker x:Name="picker"
                 Title="Selecciona un departamento"
                 ItemsSource="{Binding ListaDepartamentos}" 
                 ItemDisplayBinding="{Binding NombreDepartamento}"
-                SelectedItem="{Binding DepartamentoSeleccionado}"/>
-        <Button Text="Add" Command="{Binding BtnAddPersonaCommand}"></Button>
+                SelectedItem="{Binding DepartamentoSeleccionado}"
+                MaximumWidthRequest="300"
+                Margin="0,0,0,20"
+                />
+        <Button 
+            Text="Add" 
+            Command="{Binding BtnAddPersonaCommand}"
+            MaximumWidthRequest="300"
+            Margin="0,0,0,25">
+        </Button>
     </VerticalStackLayout>
 </ContentPage>
 
