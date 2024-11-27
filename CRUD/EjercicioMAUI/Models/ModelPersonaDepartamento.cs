@@ -11,13 +11,17 @@ namespace EjercicioMAUI.Models
     {
 
         #region Atributos
-        private string departamento;
+        private string departamento = "";
         #endregion
 
         #region Propiedades
         public string Departamento { get { return departamento; } }
         #endregion
         #region Constructor
+        public ModelPersonaDepartamento()
+        {
+
+        }
         public ModelPersonaDepartamento(ClsPersona p, List<ClsDepartamento> listaDept)
         {
             base.Id = p.Id;

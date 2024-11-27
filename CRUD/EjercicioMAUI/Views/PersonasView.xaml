@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjercicioMAUI.Views.PersonasView"
@@ -7,22 +6,48 @@
     <ContentPage.BindingContext>
         <vmodel:VMListaPersonasDepartamento/>
     </ContentPage.BindingContext>
-    <ListView
-        ItemsSource="{Binding PersonasConDept}"
-        HasUnevenRows="False"
-        RowHeight="400">
+
+    <!-- Usamos Grid como contenedor principal -->
+    <Grid>
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            
+            <RowDefinition Height="*"/>
+           
+        </Grid.RowDefinitions>
+
+        <!-- Botones en la primera fila -->
+        <Border Stroke="Gray" StrokeThickness="4">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="0" Padding="10" Spacing="10">
+            
+            <Button Command="{Binding BtnDeleteCommand}"  Text="Bor" HorizontalOptions="Center"/>
+                <Button Command="{Binding BtnEditCommand}" Text="Edit" HorizontalOptions="Center" Margin="20,0,0,0" />
+            
+        </StackLayout>
+        </Border>
+
+        <!-- ListView en la segunda fila -->
+        <ListView
+            Grid.Row="1"
+            ItemsSource="{Binding PersonasConDept}"
+            HasUnevenRows="False"
+            RowHeight="200"
+             SelectedItem="{Binding PersonaSelecionada}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <Frame Margin="30, 10, 30, 20"
-                       Padding="10"
-                       BackgroundColor="#D9D9D9"
-                       CornerRadius="10"
-                       BorderColor="Transparent"
-                       HasShadow="True">
-                            <Grid Padding="20, 3, 0, 0" ColumnDefinitions="*,Auto">
-                                <Image Grid.Column="0"  BindingContext ="{Binding Foto}" />
-
+                               Padding="10"
+                               BackgroundColor="#D9D9D9"
+                               CornerRadius="10"
+                               BorderColor="Transparent"
+                               HasShadow="True">
+                            <Grid Padding="20, 3, 0, 0" ColumnDefinitions="Auto,*">
+                                <Image Grid.Column="0"
+                                       Source="{Binding Foto}"
+                                       MaximumWidthRequest="200"
+                                       MaximumHeightRequest="200" />
                                 <Grid Grid.Column="1" BackgroundColor="#E1E1E1" Padding="10">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"/>
@@ -30,18 +55,30 @@
                                         <RowDefinition Height="Auto"/>
                                         <RowDefinition Height="Auto"/>
                                     </Grid.RowDefinitions>
-                                    <Label Grid.Row="0" Text="{Binding Id}"/>
-                                    <Label Grid.Row="1" Text="{Binding Nombre}"/>
-                                    <Label Grid.Row="2" Text="{Binding FechaNacimiento}"/>
-                                    <Label Grid.Row="3" Text="{Binding Departamento}"/>
+                                    <Label Grid.Row="0" Text="{Binding Id}" TextColor="Black"/>
+                                    <Label Grid.Row="1" Text="{Binding Nombre}" TextColor="Black"/>
+                                    <Label Grid.Row="2" Text="{Binding FechaNacimiento}" TextColor="Black"/>
+                                    <Label Grid.Row="3" Text="{Binding Departamento}" TextColor="Black"/>
                                 </Grid>
                             </Grid>
-
                         </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-
+       
+        <Button  Grid.Row="1"
+                Text="+"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                CornerRadius="25"
+                WidthRequest="50"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Command="{Binding BtnAddCommand}"
+                Margin="20"
+                />
+    </Grid>
 </ContentPage>

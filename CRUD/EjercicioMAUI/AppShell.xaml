@@ -39,5 +39,11 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:PersonasView}"
         Route="MainPage" />
+    <ShellContent
+    Title="Editar"
+    ContentTemplate="{DataTemplate local:AddPersonaView}"
+    Route="addPersonasViewPage" />
+    
+    
 
 </Shell>

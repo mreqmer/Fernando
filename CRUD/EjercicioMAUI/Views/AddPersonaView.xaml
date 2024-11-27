@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:EjercicioMAUI.Models.VM"
+             x:Class="EjercicioMAUI.Views.AddPersonaView"
+             Title="AddPersonaView">
+
+    <ContentPage.BindingContext>
+        <vmodel:VMAddPersona/>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+
+        <Entry Placeholder="Nombre" Text="{Binding Nombre}"></Entry>
+        <Entry Placeholder="Apellidos" Text="{Binding Apellidos}"></Entry>
+        <Entry Placeholder="Telefono" Text="{Binding Telefono}"></Entry>
+        <Entry Placeholder="Direccion" Text="{Binding Direccion}"></Entry>
+        <Entry Placeholder="Foto" Text="{Binding Foto}"></Entry>
+        <DatePicker Date="{Binding FechaNacimiento}" />
+        <Picker x:Name="picker"
+                Title="Selecciona un departamento"
+                ItemsSource="{Binding ListaDepartamentos}" 
+                ItemDisplayBinding="{Binding NombreDepartamento}"
+                SelectedItem="{Binding DepartamentoSeleccionado}"/>
+        <Button Text="Add" Command="{Binding BtnAddPersonaCommand}"></Button>
+    </VerticalStackLayout>
+</ContentPage>
+

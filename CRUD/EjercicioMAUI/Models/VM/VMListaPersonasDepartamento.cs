@@ -1,24 +1,45 @@
 ﻿using BL;
+using Ejercicio01.Models.VM.Utils;
 using ENT;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EjercicioMAUI.Models.VM
 {
-    public class VMListaPersonasDepartamento
+    public class VMListaPersonasDepartamento : clsVMBase
     {
         #region Atributos
 
-        private List<ModelPersonaDepartamento> personasConDept;
+        private DelegateCommand btnAddCommand;
+        private DelegateCommand btnDeleteCommand;
+        private DelegateCommand btnEditCommand;
+        private ObservableCollection<ModelPersonaDepartamento> personasConDept;
+        private ClsPersona personaSeleccionada;
 
         #endregion
 
         #region Propiedades
 
-        public List<ModelPersonaDepartamento> PersonasConDept { get { return personasConDept; } }
+        public DelegateCommand BtnAddCommand { get { return btnAddCommand; } }
+        public DelegateCommand BtnDeleteCommand { get { return btnDeleteCommand; } }
+        public DelegateCommand BtnEditCommand { get { return btnEditCommand; } }
+        public ObservableCollection<ModelPersonaDepartamento> PersonasConDept { get { return personasConDept; } }
+        public ClsPersona PersonaSelecionada { 
+            get { return personaSeleccionada;} 
+            set 
+            { 
+                personaSeleccionada = value;
+                OnPropertyChanged("PersonaSeleccionada");
+                btnAddCommand.RaiseCanExecuteChanged();
+                btnDeleteCommand.RaiseCanExecuteChanged();
+                btnEditCommand.RaiseCanExecuteChanged();
+
+            } 
+        }
 
         #endregion
 
@@ -26,7 +47,19 @@ namespace EjercicioMAUI.Models.VM
 
         public VMListaPersonasDepartamento()
         {
-            personasConDept = CargarDatos();
+            this.personasConDept = CargarDatos();
+            btnAddCommand = new DelegateCommand(btnAddCommand_Execute, btnAddComand_CanExecute);
+            btnEditCommand = new DelegateCommand(btnEditCommand_Execute, btnEditCommand_CanExecute);
+            btnDeleteCommand = new DelegateCommand(btnDeleteCommand_Execute, btnDeleteCommand_CanExecute);
+
+        }
+
+        public VMListaPersonasDepartamento(int idPersonaSeleccionada)
+        {
+            this.personasConDept = CargarDatos();
+            btnAddCommand = new DelegateCommand(btnAddCommand_Execute, btnAddComand_CanExecute);
+            btnEditCommand = new DelegateCommand(btnEditCommand_Execute, btnEditCommand_CanExecute);
+            btnDeleteCommand = new DelegateCommand(btnDeleteCommand_Execute, btnDeleteCommand_CanExecute);
         }
 
         #endregion
@@ -35,12 +68,12 @@ namespace EjercicioMAUI.Models.VM
         /// llena la lista de personas con departamento
         /// </summary>
         /// <returns></returns>
-        private List<ModelPersonaDepartamento> CargarDatos()
+        private ObservableCollection<ModelPersonaDepartamento> CargarDatos()
         {
 
             List<ClsPersona> personas = ClsListadosBL.ObtieneListadoPersonasBl();
             List<ClsDepartamento> departamentos = ClsListadosBL.ObtieneListadoDepartamentosBl();
-            List<ModelPersonaDepartamento> p = new List<ModelPersonaDepartamento>();
+            ObservableCollection<ModelPersonaDepartamento> p = new ObservableCollection<ModelPersonaDepartamento>();
 
             foreach (ClsPersona persona in personas)
             {
@@ -49,6 +82,68 @@ namespace EjercicioMAUI.Models.VM
 
             return p;
         }
+
+        #region Command
+
+        /// <summary>
+        /// Boton para añadir persona Can Execute
+        /// </summary>
+        /// <returns></returns>
+        public bool btnAddComand_CanExecute()
+        {
+            
+
+            return true;
+
+        }
+
+        /// <summary>
+        /// Execute para ir a la vista de aladir persona
+        /// </summary>
+        private async void btnAddCommand_Execute()
+        {
+
+            await Shell.Current.GoToAsync("///addPersonasViewPage");
+
+        }
+
+        public bool btnEditCommand_CanExecute()
+        {
+            bool execute = false;
+
+            if (personaSeleccionada != null)
+            {
+                execute = true;
+            }
+
+            return execute;
+        }
+
+        public void btnEditCommand_Execute()
+        {
+
+            
+        }
+        public bool btnDeleteCommand_CanExecute()
+        {
+            bool execute = false;
+
+            if (personaSeleccionada != null)
+            {
+                execute = true;
+            }
+
+            return execute;
+        }
+
+        public void btnDeleteCommand_Execute()
+        {
+           
+        }
+
+
+
+        #endregion
     }
 }
 
