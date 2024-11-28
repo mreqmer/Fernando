@@ -12,6 +12,8 @@
         <Entry
             Text="{Binding Persona.Id}"
             IsReadOnly="True"
+            MaximumWidthRequest="300"
+            Margin="0,20,0,20"
             />
         <Entry 
         Placeholder="Nombre" 
@@ -56,8 +58,8 @@
 
         <Picker x:Name="picker"
          Title="Selecciona un departamento"
-         ItemsSource="{Binding ListadoDepartamentos}" 
-         ItemDisplayBinding="{Binding DepartamentoSeleccionado}"
+         ItemsSource="{Binding ListadoDepartamentos}"                 
+         ItemDisplayBinding="{Binding NombreDepartamento}"
          SelectedItem="{Binding DepartamentoSeleccionado}"
          MaximumWidthRequest="300"
          Margin="0,0,0,20"

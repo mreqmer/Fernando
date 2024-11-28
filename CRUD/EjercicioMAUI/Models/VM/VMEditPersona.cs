@@ -37,13 +37,19 @@ namespace EjercicioMAUI.Models.VM
             set
             {
                 persona = value;
-                OnPropertyChanged(nameof(Persona));
                 btnEditCommand.RaiseCanExecuteChanged();
                 departamentoSeleccionado = ClsManejadoraBL.findDepartamentoBl(persona.IdDepartamento);
+                OnPropertyChanged("DepartamentoSeleccionado");
+                persona.IdDepartamento = departamentoSeleccionado.IdDepartamento;
+                OnPropertyChanged(nameof(Persona));
+                Console.WriteLine(Persona.FechaNacimiento.ToString());
+
             }
         }
         public DelegateCommand BtnEditCommand { get { return btnEditCommand; } }
         public List<ClsDepartamento> ListadoDepartamentos {get{return listadoDepartamentos;} }
+
+        public ClsDepartamento DepartamentoSeleccionado { get { return departamentoSeleccionado; } set { departamentoSeleccionado = value; OnPropertyChanged("DepartamentoSeleccionado"); } }
 
         #endregion
 
@@ -61,7 +67,7 @@ namespace EjercicioMAUI.Models.VM
 
         public bool btnEditCommand_CanExecute()
         {
-            bool execute = true;
+            //bool execute = false;
 
             //if (persona.Nombre != "" && persona.Apellidos != "" && persona.Telefono != "" && persona.Direccion != "" && persona.Foto != "")
             //{
@@ -78,7 +84,7 @@ namespace EjercicioMAUI.Models.VM
                 try
                 {
                     ClsManejadoraBL.updatePersonaBl(persona);
-                    await Shell.Current.GoToAsync("///MainPage");
+                    await Shell.Current.GoToAsync("//MainPage");
                 }
                 catch
                 {
@@ -88,6 +94,7 @@ namespace EjercicioMAUI.Models.VM
             }
             catch (Exception ex)
             {
+                await Shell.Current.GoToAsync("///Error");
             }
 
         }

@@ -12,7 +12,7 @@
 
         <Entry 
             Placeholder="Nombre" 
-            Text="{Binding Persona}"
+            Text="{Binding Nombre}"
             MaximumWidthRequest="300"
             Margin="0,20,0,20"
             >

@@ -22,7 +22,7 @@ namespace EjercicioMAUI.Models.VM
         private string foto;
         private DateTime fechaNacimiento;
         private ObservableCollection<ClsDepartamento> listaDepartamentos;
-        private ClsDepartamento departamentoSeleccionado;
+        private ClsDepartamento? departamentoSeleccionado;
         #endregion
 
         #region Propiedades
@@ -30,37 +30,37 @@ namespace EjercicioMAUI.Models.VM
         public string Nombre
         {
             get { return nombre; }
-            set { nombre = value; OnPropertyChanged("Nombre"); }
+            set { nombre = value; OnPropertyChanged("Nombre"); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
         }
 
         public string Apellidos
         {
             get { return apellidos; }
-            set { apellidos = value; OnPropertyChanged("Apellidos"); }
+            set { apellidos = value; OnPropertyChanged("Apellidos"); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
         }
 
         public string Telefono
         {
             get { return telefono; }
-            set { telefono = value; OnPropertyChanged("Telefono"); }
+            set { telefono = value; OnPropertyChanged("Telefono"); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
         }
 
         public string Direccion
         {
             get { return direccion; }
-            set { direccion = value; OnPropertyChanged("Direccion"); }
+            set { direccion = value; OnPropertyChanged("Direccion"); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
         }
 
         public string Foto
         {
             get { return foto; }
-            set { foto = value; OnPropertyChanged("Foto"); }
+            set { foto = value; OnPropertyChanged("Foto"); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
         }
 
         public DateTime FechaNacimiento
         {
             get { return fechaNacimiento; }
-            set { fechaNacimiento = value; OnPropertyChanged(); }
+            set { fechaNacimiento = value; OnPropertyChanged(); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
         }
 
         public ObservableCollection<ClsDepartamento> ListaDepartamentos
@@ -69,13 +69,18 @@ namespace EjercicioMAUI.Models.VM
             set { listaDepartamentos = value; OnPropertyChanged(); }
         }
 
-        public ClsDepartamento DepartamentoSeleccionado { get { return departamentoSeleccionado; } set { departamentoSeleccionado = value; OnPropertyChanged(); } }
+        public ClsDepartamento DepartamentoSeleccionado 
+        {
+            get { return departamentoSeleccionado; } 
+            set { departamentoSeleccionado = value; OnPropertyChanged(); btnAddPersonaCommand.RaiseCanExecuteChanged(); }
+        }
         #endregion
 
         #region Constructor
 
         public VMAddPersona()
         {
+            
             listaDepartamentos = new ObservableCollection<ClsDepartamento>(ClsListadosBL.ObtieneListadoDepartamentosBl());
             btnAddPersonaCommand = new DelegateCommand(btnAddPersonaCommand_Execute, btnAddPersonaCommand_CanExecute);
         }
@@ -86,16 +91,35 @@ namespace EjercicioMAUI.Models.VM
 
         public bool btnAddPersonaCommand_CanExecute()
         {
-            return true;
+            bool execute = false;
+
+            if 
+                (
+                !string.IsNullOrEmpty(Nombre)&& !string.IsNullOrEmpty(Apellidos) && !string.IsNullOrEmpty(Direccion)
+                && !string.IsNullOrEmpty(Telefono) && !string.IsNullOrEmpty(Foto) && departamentoSeleccionado != null
+                )
+            {
+                execute = true;
+            }
+
+            return execute;
         }
 
         public async void btnAddPersonaCommand_Execute()
         {
             
             ClsPersona p = new ClsPersona(nombre, apellidos, telefono, direccion, foto, fechaNacimiento, departamentoSeleccionado.IdDepartamento);
-            ClsManejadoraBL.newPersonaBl(p);
+            //ClsManejadoraBL.newPersonaBl(p);
 
-            await Shell.Current.GoToAsync("///MainPage");
+            nombre = ""; OnPropertyChanged();
+            apellidos = ""; OnPropertyChanged();
+            telefono = ""; OnPropertyChanged();
+            direccion = ""; OnPropertyChanged();
+            foto = ""; OnPropertyChanged();
+            fechaNacimiento = new DateTime(1924, 01, 01); OnPropertyChanged();
+            departamentoSeleccionado = null; OnPropertyChanged();
+
+            await Shell.Current.GoToAsync("//MainPage");
 
         }
 

@@ -17,7 +17,7 @@ namespace EjercicioMAUI.Models.VM
         private DelegateCommand btnAddCommand;
         private DelegateCommand btnDeleteCommand;
         private DelegateCommand btnEditCommand;
-        private ObservableCollection<ModelPersonaDepartamento> personasConDept;
+        private ObservableCollection<ModelPersonaDepartamento> personasConDept = new ObservableCollection<ModelPersonaDepartamento>();
         private ClsPersona personaSeleccionada;
 
         #endregion
@@ -48,7 +48,8 @@ namespace EjercicioMAUI.Models.VM
 
         public VMListaPersonasDepartamento()
         {
-            this.personasConDept = CargarDatos();
+
+            CargarDatos();
             btnAddCommand = new DelegateCommand(btnAddCommand_Execute, btnAddComand_CanExecute);
             btnEditCommand = new DelegateCommand(btnEditCommand_Execute, btnEditCommand_CanExecute);
             btnDeleteCommand = new DelegateCommand(btnDeleteCommand_Execute, btnDeleteCommand_CanExecute);
@@ -57,7 +58,7 @@ namespace EjercicioMAUI.Models.VM
 
         public VMListaPersonasDepartamento(int idPersonaSeleccionada)
         {
-            this.personasConDept = CargarDatos();
+            CargarDatos();
             btnAddCommand = new DelegateCommand(btnAddCommand_Execute, btnAddComand_CanExecute);
             btnEditCommand = new DelegateCommand(btnEditCommand_Execute, btnEditCommand_CanExecute);
             btnDeleteCommand = new DelegateCommand(btnDeleteCommand_Execute, btnDeleteCommand_CanExecute);
@@ -69,19 +70,23 @@ namespace EjercicioMAUI.Models.VM
         /// llena la lista de personas con departamento
         /// </summary>
         /// <returns></returns>
-        private ObservableCollection<ModelPersonaDepartamento> CargarDatos()
+        private async void CargarDatos()
         {
-
-            List<ClsPersona> personas = ClsListadosBL.ObtieneListadoPersonasBl();
-            List<ClsDepartamento> departamentos = ClsListadosBL.ObtieneListadoDepartamentosBl();
-            ObservableCollection<ModelPersonaDepartamento> p = new ObservableCollection<ModelPersonaDepartamento>();
-
-            foreach (ClsPersona persona in personas)
+            try
             {
-                p.Add(new ModelPersonaDepartamento(persona, departamentos));
-            }
+                List<ClsPersona> personas = ClsListadosBL.ObtieneListadoPersonasBl();
+                List<ClsDepartamento> departamentos = ClsListadosBL.ObtieneListadoDepartamentosBl();
+                
 
-            return p;
+                foreach (ClsPersona persona in personas)
+                {
+                    personasConDept.Add(new ModelPersonaDepartamento(persona, departamentos));
+                }
+            }
+            catch (Exception ex)
+            {
+                await Shell.Current.GoToAsync("///Error");
+            }
         }
 
         #region Command
@@ -135,10 +140,10 @@ namespace EjercicioMAUI.Models.VM
 
                 var queryParams = new Dictionary<string, object>
                 {
-                    { "Persona", (ClsPersona)persona } 
+                    { "Persona", persona } 
                 };
 
-                await Shell.Current.GoToAsync("///editPersonaView", queryParams);
+                await Shell.Current.GoToAsync("//home/editPersonaView", queryParams);
             }
             catch (Exception ex) {
 
@@ -166,7 +171,6 @@ namespace EjercicioMAUI.Models.VM
             ClsManejadoraBL.borrarPersonaBl(personaSeleccionada.Id);
             ModelPersonaDepartamento personaEncontrada = personasConDept.FirstOrDefault(p => p.Id == personaSeleccionada.Id);
             personasConDept.Remove(personaEncontrada);
-
 
         }
 
