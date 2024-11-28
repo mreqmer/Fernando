@@ -76,6 +76,9 @@
 	  <MauiXaml Update="Views\AddPersonaView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\cosa1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\DepartamentosView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -124,10 +124,18 @@ namespace EjercicioMAUI.Models.VM
         {
             try
             {
-               
+                //TODO esto funciona a unas malas le paso la ID solo
+                //                var queryParams = new Dictionary<string, object>
+                //{
+                //                    { "Id", (long)personaSeleccionada.Id } // Asegurarte de que sea un long
+                //                };
+
+                ClsPersona persona = ClsManejadoraBL.findPersonaBl(personaSeleccionada.Id);
+                
+
                 var queryParams = new Dictionary<string, object>
                 {
-                    { "Persona", PersonaSeleccionada}
+                    { "Persona", (ClsPersona)persona } 
                 };
 
                 await Shell.Current.GoToAsync("///editPersonaView", queryParams);
