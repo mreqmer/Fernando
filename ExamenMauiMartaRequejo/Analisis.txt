@@ -1,0 +1,74 @@
+ENT
+
+	ClsCandidato
+		-int id
+		-int nombre
+
+		+int Id {get;}
+		+string Nombre {get,}
+
+		+Candidato()
+		+Candidato(id, nombre)
+
+DAL
+	ClsListadosDal
+		static List<ClsCandidato> listaCandidatos
+
+		static List<ClsCandidato> ObtieneListaCandidatosDal(int id)
+
+	ClsManejadoraDal
+		static ClsCandidato ObtieneCandidatoDal()
+
+
+BL
+	ClsListadosBl
+
+		static List<ClaCandidato ObtieneListaCandidatosBl()
+
+	ClsManejadoraBl
+
+		static ClsCandidatos ObtieneCandidatoDBl(int id)
+
+UI
+
+	
+			
+
+	VM
+		JuegoVM : ClsVMBase
+
+			-DelegateCommand btnEnviarCommand {get;}
+			-DelegateCommand btnReiniciarCommand {get;}
+			-ClsCandidato candidatoJuego {get; set;} -> ccandidato que se usa para el juego en la ronda actual
+			-ClsCandidato candidatoSeleccionado { get; set} -> candidato que ha seleccionado el usuario
+			-string foto -> foto del candidato del juego
+			-ObservableCollection<ClsCandidato> listaDeCandidatos {get; set;} -> lista de los candidatos que aparecen para seleccionar la respuesta
+			-List<ClsCandidato> candidatosUsados -> candidatos que ya han aparecido en el juego
+			-int ganadas {get; set;}
+			-int perdidas {get; set;}
+			-int rondas {get; set;}
+
+
+			+JuegoVM(){
+				ganadas = 0
+				perdidas = 0
+				candidatoJuego = CargaCandidato()
+				listaDeCandidatos = CargaRespuestas
+			}
+
+			+ClsCandidato CargaCandidato() -> Busca un candidato aleatorio en la lista de candidatos de la bl, además, si la lista no está vacía comprueba
+											que no exista en candidatosUsados
+			+List<ClsCandidato> CargaRespuestas() -> Carga el listado con 4 candidatos aleatorios, comprobando que esté el seleccionado, si ya está llena
+													además la vacía
+
+			+btnEnviarCommand_CanExecute -> Solo se puede clickar enviar si hay seleccionado una respuesta
+			+btnEnviarCommand_Execute -> Comprueba que el candidatoJuego sea el mismo que el candidatoSeleccionado y añade a los contadores
+										según haya ganado o no
+			+btnReiniciarCommand_CanExecute -> Solo se puede clickar si las rondas totales es = 5
+			+btnReiniciarCommand_Execute ->Reinicia el juego (ganadas, perdidas, rondas, listas, etc)
+
+			
+
+	View
+		JuegoView
+		

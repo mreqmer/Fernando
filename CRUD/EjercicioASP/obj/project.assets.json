@@ -6775,23 +6775,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\porqu\\.nuget\\packages\\": {},
+    "C:\\Users\\mrequejo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\EjercicioASP\\EjercicioASP.csproj",
+      "projectUniqueName": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\EjercicioASP.csproj",
       "projectName": "EjercicioASP",
-      "projectPath": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\EjercicioASP\\EjercicioASP.csproj",
-      "packagesPath": "C:\\Users\\porqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\EjercicioASP\\obj\\",
+      "projectPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\EjercicioASP.csproj",
+      "packagesPath": "C:\\Users\\mrequejo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\EjercicioASP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\porqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mrequejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6807,11 +6807,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\BL\\BL.csproj"
+            "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\BL\\BL.csproj"
             },
-            "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-              "projectPath": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\CRUD\\ENT\\ENT.csproj"
+            "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+              "projectPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\CRUD\\ENT\\ENT.csproj"
             }
           }
         }

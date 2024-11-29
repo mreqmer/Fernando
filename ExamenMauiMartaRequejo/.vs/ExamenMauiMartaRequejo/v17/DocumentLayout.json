@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\examenmauimartarequejo\\examenmauimartarequejo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|solutionrelative:examenmauimartarequejo\\examenmauimartarequejo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\examenmauimartarequejo\\vm\\vmjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|solutionrelative:examenmauimartarequejo\\vm\\vmjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE76BF6-271D-473E-8B67-03E27C2C7E52}|ENT\\ENT.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\ent\\clscandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE76BF6-271D-473E-8B67-03E27C2C7E52}|ENT\\ENT.csproj|solutionrelative:ent\\clscandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\examenmauimartarequejo\\views\\juegoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|solutionrelative:examenmauimartarequejo\\views\\juegoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F517C5-A051-4463-AA40-7724130CEDE5}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F517C5-A051-4463-AA40-7724130CEDE5}|BL\\BL.csproj|solutionrelative:bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\examenmauimartarequejo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|solutionrelative:examenmauimartarequejo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\examenmauimartarequejo\\views\\juegoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB1C675-0502-4A41-9179-E1CD32EB11AB}|ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj|solutionrelative:examenmauimartarequejo\\views\\juegoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1DA612-6EF1-49B0-B535-C70862A8F5FC}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\dal\\clsmanejadoradal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1DA612-6EF1-49B0-B535-C70862A8F5FC}|DAL\\DAL.csproj|solutionrelative:dal\\clsmanejadoradal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1DA612-6EF1-49B0-B535-C70862A8F5FC}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1DA612-6EF1-49B0-B535-C70862A8F5FC}|DAL\\DAL.csproj|solutionrelative:dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F517C5-A051-4463-AA40-7724130CEDE5}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenmauimartarequejo\\bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F517C5-A051-4463-AA40-7724130CEDE5}|BL\\BL.csproj|solutionrelative:bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 31,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamenMauiMartaRequejo.csproj",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj",
+              "RelativeDocumentMoniker": "ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj",
+              "RelativeToolTip": "ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo.csproj",
+              "ViewState": "AgIAACAAAAAAAAAAAIBZwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T10:35:18.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 476,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JuegoView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\Views\\JuegoView.xaml.cs",
+              "RelativeDocumentMoniker": "ExamenMauiMartaRequejo\\Views\\JuegoView.xaml.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\Views\\JuegoView.xaml.cs",
+              "RelativeToolTip": "ExamenMauiMartaRequejo\\Views\\JuegoView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:13:21.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VMJuego.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\VM\\VMJuego.cs",
+              "RelativeDocumentMoniker": "ExamenMauiMartaRequejo\\VM\\VMJuego.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\VM\\VMJuego.cs",
+              "RelativeToolTip": "ExamenMauiMartaRequejo\\VM\\VMJuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:10:19.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JuegoView.xaml",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\Views\\JuegoView.xaml",
+              "RelativeDocumentMoniker": "ExamenMauiMartaRequejo\\Views\\JuegoView.xaml",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\Views\\JuegoView.xaml",
+              "RelativeToolTip": "ExamenMauiMartaRequejo\\Views\\JuegoView.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAE4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:32:02.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ExamenMauiMartaRequejo\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ExamenMauiMartaRequejo\\MainPage.xaml",
+              "RelativeToolTip": "ExamenMauiMartaRequejo\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:46:34.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsManejadoraBL.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\BL\\ClsManejadoraBL.cs",
+              "RelativeDocumentMoniker": "BL\\ClsManejadoraBL.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\BL\\ClsManejadoraBL.cs",
+              "RelativeToolTip": "BL\\ClsManejadoraBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:25:04.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClsListadosBL.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\BL\\ClsListadosBL.cs",
+              "RelativeDocumentMoniker": "BL\\ClsListadosBL.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\BL\\ClsListadosBL.cs",
+              "RelativeToolTip": "BL\\ClsListadosBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:25:05.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClsManejadoraDAL.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\DAL\\ClsManejadoraDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ClsManejadoraDAL.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\DAL\\ClsManejadoraDAL.cs",
+              "RelativeToolTip": "DAL\\ClsManejadoraDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:21:55.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClsListadosDAL.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\DAL\\ClsListadosDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ClsListadosDAL.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\DAL\\ClsListadosDAL.cs",
+              "RelativeToolTip": "DAL\\ClsListadosDAL.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:10:40.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsCandidato.cs",
+              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ENT\\ClsCandidato.cs",
+              "RelativeDocumentMoniker": "ENT\\ClsCandidato.cs",
+              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenMauiMartaRequejo\\ENT\\ClsCandidato.cs",
+              "RelativeToolTip": "ENT\\ClsCandidato.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:08:05.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

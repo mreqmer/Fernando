@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cartitas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6a0498215614248308c04f1be69438a0cace1372")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eea73298b2ab6a1f834f9b537b8017080c0077b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cartitas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cartitas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,6 +12,14 @@ using System.Threading.Tasks;
 
 namespace EjercicioMAUI.Models.VM
 {
+
+    /*using CommunityToolkit.Maui.Alerts;
+        using CommunityToolkit.Maui.Core;
+    CancellationTokenSource token = new CancellationTokenSource();
+                var toast = Toast.Make("Persona añadida correctamente", ToastDuration.Short, 14);
+                toast.Show(token.Token);
+    
+     */
     //Esto fcunciona
     //[QueryProperty(nameof(Id), "Id")]
     [QueryProperty(nameof(Persona), "Persona")]

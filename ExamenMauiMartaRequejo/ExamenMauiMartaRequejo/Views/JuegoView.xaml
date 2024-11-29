@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenMauiMartaRequejo.Views.JuegoView"
+             xmlns:vmodel="clr-namespace:ExamenMauiMartaRequejo.VM"
+             Title="JuegoView">
+
+    <ContentPage.BindingContext>
+        <vmodel:VMJuego/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <!--Aquí el contador está muy feo y no se centra, habría que arreglarlo-->
+            <Grid Grid.Row="0" ColumnDefinitions="Auto,Auto">
+                <Label Grid.Column="0"
+                     VerticalOptions="Center"  
+                    Text="{Binding Ganadas}"/>
+                <Label Grid.Column="1"
+                       VerticalOptions="Center"
+                    Text="{Binding Perdidas}"/>
+            </Grid>
+            
+            <Label Grid.Row="1"
+                HorizontalOptions="CenterAndExpand"
+                Text="¿QUIÉN ES ESE ITALIANO?"
+                FontSize="40"
+                MaximumWidthRequest="500"
+                Padding="0,0,0,50"/>
+
+            <Image Grid.Row="2"
+                Source="{Binding Foto}"
+                MaximumHeightRequest="200"
+                MaximumWidthRequest="200"
+                                   
+            />
+
+            <ListView
+                Grid.Row="3"
+                ItemsSource="{Binding ListaCandidatosRespuesta}"
+                HasUnevenRows="False"
+                RowHeight="75"
+                SelectedItem="{Binding CandidatoSeleccionado}"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="30, 10, 30, 0"
+                                    >
+
+                                <StackLayout>
+                                    <Label Text="{Binding Nombre}"/>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Grid.Row="4"
+                Text="Enviar"
+                Margin="0,20,0,0"        
+                MaximumWidthRequest="100"     
+                Command="{Binding BtnEnviarCommand}"       
+             ></Button>
+        </Grid>
+       
+        
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

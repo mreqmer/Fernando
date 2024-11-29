@@ -1,0 +1,17 @@
+Id	Nombre
+1	Paulie Gualtieri	
+2	Christopher Moltisanti
+3	Silvio Dante
+4	Vito Spatafore
+5	Ralph Cifaretto
+6	Furio Giunta
+7	Carlo Gervasi
+8	Jackie Aprile, Jr.
+9	Richie Aprile
+10	Bobby Baccalieri
+11	Phil Leotardo
+12	Big Pussy Bonpensiero
+13	Benny Fazio
+14	Tony Blundetto
+15	Little Paulie Germani
+
