@@ -43,9 +43,15 @@
             HasUnevenRows="False"
             RowHeight="200"
             SelectedItem="{Binding PersonaSelecionada}">
+
+            <ListView.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding BtnEditCommand}" 
+                                               NumberOfTapsRequired="2"/>
+            </ListView.GestureRecognizers>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+
                         <Frame Margin="30, 10, 30, 20"
                                Padding="10"
                                

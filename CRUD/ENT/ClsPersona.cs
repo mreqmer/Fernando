@@ -82,6 +82,18 @@ namespace ENT
             this.fechaNacimiento = fechaNacimiento;
             this.idDepartamento = idDepartamento;
         }
+
+        public ClsPersona(ClsPersona p)
+        {
+            this.id = p.Id;
+            this.nombre = p.Nombre;
+            this.apellidos = p.Apellidos;
+            this.telefono = p.Telefono;
+            this.direccion = p.Direccion;
+            this.foto = p.Foto;
+            this.fechaNacimiento = p.FechaNacimiento;
+            this.idDepartamento = p.IdDepartamento;
+        }
         #endregion
     }
 }

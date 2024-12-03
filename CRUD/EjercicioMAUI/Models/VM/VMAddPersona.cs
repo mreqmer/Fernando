@@ -109,7 +109,7 @@ namespace EjercicioMAUI.Models.VM
         {
             
             ClsPersona p = new ClsPersona(nombre, apellidos, telefono, direccion, foto, fechaNacimiento, departamentoSeleccionado.IdDepartamento);
-            //ClsManejadoraBL.newPersonaBl(p);
+            ClsManejadoraBL.newPersonaBl(p);
 
             nombre = ""; OnPropertyChanged();
             apellidos = ""; OnPropertyChanged();

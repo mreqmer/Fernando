@@ -135,15 +135,17 @@ namespace EjercicioMAUI.Models.VM
                 //                    { "Id", (long)personaSeleccionada.Id } // Asegurarte de que sea un long
                 //                };
 
-                ClsPersona persona = ClsManejadoraBL.findPersonaBl(personaSeleccionada.Id);
-                
+                //ClsPersona persona = ClsManejadoraBL.findPersonaBl(personaSeleccionada.Id);
+                ClsPersona persona = new ClsPersona(personaSeleccionada);
+
+
 
                 var queryParams = new Dictionary<string, object>
                 {
                     { "Persona", persona } 
                 };
 
-                await Shell.Current.GoToAsync("//home/editPersonaView", queryParams);
+                await Shell.Current.GoToAsync("///editPersonaView", queryParams);
             }
             catch (Exception ex) {
 
