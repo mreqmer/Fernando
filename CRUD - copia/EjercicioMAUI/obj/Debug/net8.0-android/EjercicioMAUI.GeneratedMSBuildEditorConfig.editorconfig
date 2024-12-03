@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EjercicioMAUI
+build_property.ProjectDir = C:\Users\mrequejo\Desktop\repos\Fernando\CRUD\EjercicioMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Views/AddPersonaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Views.AddPersonaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddPersonaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddPersonaView.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Views/cosa1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Views.cosa1.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\cosa1.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\cosa1.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Views/DepartamentosView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Views.DepartamentosView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DepartamentosView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DepartamentosView.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Views/EditPersonaView2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Views.EditPersonaView2.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditPersonaView2.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditPersonaView2.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Views/Error.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Views.Error.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Error.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Error.xaml
+
+[C:/Users/mrequejo/Desktop/repos/Fernando/CRUD/EjercicioMAUI/Views/PersonasView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioMAUI.Views.PersonasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PersonasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PersonasView.xaml
