@@ -1,24 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\",
+  "WorkspaceRootPath": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\dal\\clsmanejadoradal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\dal\\clsmanejadoradal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|solutionrelative:dal\\clsmanejadoradal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|solutionrelative:dal\\clslistadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|solutionrelative:bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C5438AA-A66C-40A2-A07B-C5A46638E3FB}|BL\\BL.csproj|solutionrelative:bl\\clslistadosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|Elementos de la soluci\u00F3n{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\Examentxt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|Elementos de la soluci\u00F3n{319FB3DF-58A8-4F6C-BE56-575632EFC62B}|solutionrelative:Examentxt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -32,34 +45,37 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\views\\home\\vistadetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+=======
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\views\\home\\vistadetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\views\\home\\vistadetalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\models\\vm\\clspersonadetallesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\models\\vm\\clspersonadetallesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\models\\vm\\clspersonadetallesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\models\\vm\\clsmisionespersonasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\models\\vm\\clsmisionespersonasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\models\\vm\\clsmisionespersonasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B75658AA-55C5-4DB9-9A98-13973E43BC00}|ENT\\ENT.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ent\\clsmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B75658AA-55C5-4DB9-9A98-13973E43BC00}|ENT\\ENT.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ent\\clsmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B75658AA-55C5-4DB9-9A98-13973E43BC00}|ENT\\ENT.csproj|solutionrelative:ent\\clsmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B75658AA-55C5-4DB9-9A98-13973E43BC00}|ENT\\ENT.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ent\\clscandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B75658AA-55C5-4DB9-9A98-13973E43BC00}|ENT\\ENT.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ent\\clscandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B75658AA-55C5-4DB9-9A98-13973E43BC00}|ENT\\ENT.csproj|solutionrelative:ent\\clscandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1BC59585-CD3A-4789-93A5-59F0DA477C79}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\mrequejo\\desktop\\repos\\fernando\\examenaspmartarequejo\\ejercicioexamen\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|c:\\users\\porqu\\onedrive\\escritorio\\repo\\fernando\\examenaspmartarequejo\\ejercicioexamen\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6B8DED3-C68E-4DC0-A364-342CB3B1892A}|EjercicioExamen\\EjercicioExamen.csproj|solutionrelative:ejercicioexamen\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -84,9 +100,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "VistaDetalles.cshtml",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
               "RelativeToolTip": "EjercicioExamen\\Views\\Home\\VistaDetalles.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -96,9 +112,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EjercicioExamen\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,9 +124,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ClsMisionesPersonasVM.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
               "RelativeToolTip": "EjercicioExamen\\Models\\VM\\ClsMisionesPersonasVM.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,9 +136,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClsManejadoraBl.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsManejadoraBl.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsManejadoraBl.cs",
               "RelativeDocumentMoniker": "BL\\ClsManejadoraBl.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsManejadoraBl.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsManejadoraBl.cs",
               "RelativeToolTip": "BL\\ClsManejadoraBl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ClsListadosBl.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsListadosBl.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsListadosBl.cs",
               "RelativeDocumentMoniker": "BL\\ClsListadosBl.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsListadosBl.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\BL\\ClsListadosBl.cs",
               "RelativeToolTip": "BL\\ClsListadosBl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,9 +162,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ClsPersonaDetallesVM.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
               "RelativeToolTip": "EjercicioExamen\\Models\\VM\\ClsPersonaDetallesVM.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA5wB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,9 +174,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClsManejadoraDal.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsManejadoraDal.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsManejadoraDal.cs",
               "RelativeDocumentMoniker": "DAL\\ClsManejadoraDal.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsManejadoraDal.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsManejadoraDal.cs",
               "RelativeToolTip": "DAL\\ClsManejadoraDal.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,9 +187,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "EjercicioExamen\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -183,9 +199,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "EjercicioExamen\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "EjercicioExamen\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,9 +236,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EjercicioExamen\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\EjercicioExamen\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EjercicioExamen\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -230,11 +246,27 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 3,
+              "Title": "ClsListadosDal.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsListadosDal.cs",
+              "RelativeDocumentMoniker": "DAL\\ClsListadosDal.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\DAL\\ClsListadosDal.cs",
+              "RelativeToolTip": "DAL\\ClsListadosDal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:39:31.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+>>>>>>> Stashed changes
               "Title": "DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\DAL\\DAL.csproj",
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -244,9 +276,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ClsCandidato.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsCandidato.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsCandidato.cs",
               "RelativeDocumentMoniker": "ENT\\ClsCandidato.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsCandidato.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsCandidato.cs",
               "RelativeToolTip": "ENT\\ClsCandidato.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -256,9 +288,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ClsMision.cs",
-              "DocumentMoniker": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsMision.cs",
+              "DocumentMoniker": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsMision.cs",
               "RelativeDocumentMoniker": "ENT\\ClsMision.cs",
-              "ToolTip": "C:\\Users\\mrequejo\\Desktop\\repos\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsMision.cs",
+              "ToolTip": "C:\\Users\\porqu\\OneDrive\\Escritorio\\repo\\Fernando\\ExamenAspMartaRequejo\\ENT\\ClsMision.cs",
               "RelativeToolTip": "ENT\\ClsMision.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAuwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
